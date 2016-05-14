@@ -1,26 +1,3 @@
-/*
-The MIT License (MIT)
-
-Copyright (c) 2016 Desutin sumisu
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
-
 CreateClientConVar("gnode_antiafktimer", 5) -- basically concommand.Add()
 local aafkon = 0 -- turns the command to zero by default
 local function aafkm()
@@ -204,7 +181,7 @@ local function move19()
 	end)
 end
 local function move20()
-	LocalPlayer():ConCommand("say We're a lot alike, you and I. You tested me. I tested you. You killed me. I—oh, no, wait. I guess I haven't killed you yet. Well. Food for thought. -GLaDOS")
+	LocalPlayer():ConCommand("say We're a lot alike, you and I. You tested me. I tested you. You killed me. Iâ€”oh, no, wait. I guess I haven't killed you yet. Well. Food for thought. -GLaDOS")
 	LocalPlayer():ConCommand("+walk")
 	timer.Simple( .5, function()
 		RunConsoleCommand("-use")
@@ -236,7 +213,7 @@ local function move23()
 	end)
 end
 local function move24()
-	LocalPlayer():ConCommand("say A shepherd must tend to his flock, especially when they have grown…unruly. -Father Grigori")
+	LocalPlayer():ConCommand("say A shepherd must tend to his flock, especially when they have grownâ€¦unruly. -Father Grigori")
 	LocalPlayer():ConCommand("+walk")
 	timer.Simple( .5, function()
 		RunConsoleCommand("-use")
